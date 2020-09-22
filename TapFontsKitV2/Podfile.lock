@@ -1,0 +1,28 @@
+PODS:
+  - SwiftLint (0.40.2)
+  - TapAdditionsKitV2 (0.0.3):
+    - SwiftLint
+    - TapSwiftFixes/Exceptions
+    - TapSwiftFixes/Threading
+  - TapSwiftFixes/Exceptions (1.0.9)
+  - TapSwiftFixes/Threading (1.0.9)
+
+DEPENDENCIES:
+  - SwiftLint
+  - TapAdditionsKitV2
+  - TapSwiftFixes/Threading
+
+SPEC REPOS:
+  trunk:
+    - SwiftLint
+    - TapAdditionsKitV2
+    - TapSwiftFixes
+
+SPEC CHECKSUMS:
+  SwiftLint: 1216c910d27c2633ade33b4f071bb6b930982e62
+  TapAdditionsKitV2: 5752ee6837d690d4f38449d83155ab631fc4fc13
+  TapSwiftFixes: db2aeb21942dd81ee051a31ed319dab0d03547a2
+
+PODFILE CHECKSUM: 6728c3b678957c4e73c3fc68e50f15e4fd2538ce
+
+COCOAPODS: 1.9.3

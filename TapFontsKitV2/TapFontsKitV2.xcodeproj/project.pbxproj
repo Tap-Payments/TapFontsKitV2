@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A0AD275E57D37E55B25575C /* Pods_TapFontsKitV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C249196D015CADFD6CFD2603 /* Pods_TapFontsKitV2.framework */; };
+		E8198A7A251A157800DB83C3 /* HelveticaNeueLTW20-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8198A6E251A157800DB83C3 /* HelveticaNeueLTW20-Roman.ttf */; };
+		E8198A7B251A157800DB83C3 /* Circe-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8198A6F251A157800DB83C3 /* Circe-ExtraLight.ttf */; };
+		E8198A7C251A157800DB83C3 /* Circe-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8198A70251A157800DB83C3 /* Circe-Light.ttf */; };
+		E8198A7D251A157800DB83C3 /* Circe-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8198A71251A157800DB83C3 /* Circe-ExtraBold.ttf */; };
+		E8198A7E251A157800DB83C3 /* Circe-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8198A72251A157800DB83C3 /* Circe-Bold.ttf */; };
+		E8198A7F251A157800DB83C3 /* HelveticaNeueLTW20-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8198A73251A157800DB83C3 /* HelveticaNeueLTW20-Bold.ttf */; };
+		E8198A80251A157800DB83C3 /* HelveticaNeueLTW20-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8198A74251A157800DB83C3 /* HelveticaNeueLTW20-Light.ttf */; };
+		E8198A81251A157800DB83C3 /* Circe-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8198A75251A157800DB83C3 /* Circe-Thin.ttf */; };
+		E8198A82251A157800DB83C3 /* Circe-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8198A76251A157800DB83C3 /* Circe-Regular.ttf */; };
+		E8198A83251A157800DB83C3 /* FontProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8198A78251A157800DB83C3 /* FontProvider.swift */; };
+		E8198A84251A157800DB83C3 /* TapFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8198A79251A157800DB83C3 /* TapFont.swift */; };
+		E8C22862251A150900736B2B /* TapFontsKitV2.h in Headers */ = {isa = PBXBuildFile; fileRef = E8C22860251A150900736B2B /* TapFontsKitV2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39167F1415945BEA5C137FB3 /* Pods-TapFontsKitV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapFontsKitV2.release.xcconfig"; path = "Target Support Files/Pods-TapFontsKitV2/Pods-TapFontsKitV2.release.xcconfig"; sourceTree = "<group>"; };
+		8E41DF361376887A1F1C4AB9 /* Pods-TapFontsKitV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapFontsKitV2.debug.xcconfig"; path = "Target Support Files/Pods-TapFontsKitV2/Pods-TapFontsKitV2.debug.xcconfig"; sourceTree = "<group>"; };
+		C249196D015CADFD6CFD2603 /* Pods_TapFontsKitV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapFontsKitV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8198A6E251A157800DB83C3 /* HelveticaNeueLTW20-Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeueLTW20-Roman.ttf"; sourceTree = "<group>"; };
+		E8198A6F251A157800DB83C3 /* Circe-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circe-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E8198A70251A157800DB83C3 /* Circe-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circe-Light.ttf"; sourceTree = "<group>"; };
+		E8198A71251A157800DB83C3 /* Circe-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circe-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E8198A72251A157800DB83C3 /* Circe-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circe-Bold.ttf"; sourceTree = "<group>"; };
+		E8198A73251A157800DB83C3 /* HelveticaNeueLTW20-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeueLTW20-Bold.ttf"; sourceTree = "<group>"; };
+		E8198A74251A157800DB83C3 /* HelveticaNeueLTW20-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeueLTW20-Light.ttf"; sourceTree = "<group>"; };
+		E8198A75251A157800DB83C3 /* Circe-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circe-Thin.ttf"; sourceTree = "<group>"; };
+		E8198A76251A157800DB83C3 /* Circe-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circe-Regular.ttf"; sourceTree = "<group>"; };
+		E8198A78251A157800DB83C3 /* FontProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontProvider.swift; sourceTree = "<group>"; };
+		E8198A79251A157800DB83C3 /* TapFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapFont.swift; sourceTree = "<group>"; };
+		E8C2285D251A150900736B2B /* TapFontsKitV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapFontsKitV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8C22860251A150900736B2B /* TapFontsKitV2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapFontsKitV2.h; sourceTree = "<group>"; };
+		E8C22861251A150900736B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8C2285A251A150900736B2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0AD275E57D37E55B25575C /* Pods_TapFontsKitV2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		460F6023E5DB1D2B9B61118F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E41DF361376887A1F1C4AB9 /* Pods-TapFontsKitV2.debug.xcconfig */,
+				39167F1415945BEA5C137FB3 /* Pods-TapFontsKitV2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7DE46A6FD31CB7EE8886BF75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C249196D015CADFD6CFD2603 /* Pods_TapFontsKitV2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8198A6D251A157800DB83C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8198A6E251A157800DB83C3 /* HelveticaNeueLTW20-Roman.ttf */,
+				E8198A6F251A157800DB83C3 /* Circe-ExtraLight.ttf */,
+				E8198A70251A157800DB83C3 /* Circe-Light.ttf */,
+				E8198A71251A157800DB83C3 /* Circe-ExtraBold.ttf */,
+				E8198A72251A157800DB83C3 /* Circe-Bold.ttf */,
+				E8198A73251A157800DB83C3 /* HelveticaNeueLTW20-Bold.ttf */,
+				E8198A74251A157800DB83C3 /* HelveticaNeueLTW20-Light.ttf */,
+				E8198A75251A157800DB83C3 /* Circe-Thin.ttf */,
+				E8198A76251A157800DB83C3 /* Circe-Regular.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E8198A77251A157800DB83C3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E8198A78251A157800DB83C3 /* FontProvider.swift */,
+				E8198A79251A157800DB83C3 /* TapFont.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E8C22853251A150900736B2B = {
+			isa = PBXGroup;
+			children = (
+				E8C2285F251A150900736B2B /* TapFontsKitV2 */,
+				E8C2285E251A150900736B2B /* Products */,
+				460F6023E5DB1D2B9B61118F /* Pods */,
+				7DE46A6FD31CB7EE8886BF75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8C2285E251A150900736B2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8C2285D251A150900736B2B /* TapFontsKitV2.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8C2285F251A150900736B2B /* TapFontsKitV2 */ = {
+			isa = PBXGroup;
+			children = (
+				E8198A6D251A157800DB83C3 /* Resources */,
+				E8198A77251A157800DB83C3 /* Source */,
+				E8C22860251A150900736B2B /* TapFontsKitV2.h */,
+				E8C22861251A150900736B2B /* Info.plist */,
+			);
+			path = TapFontsKitV2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E8C22858251A150900736B2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8C22862251A150900736B2B /* TapFontsKitV2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E8C2285C251A150900736B2B /* TapFontsKitV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8C22865251A150900736B2B /* Build configuration list for PBXNativeTarget "TapFontsKitV2" */;
+			buildPhases = (
+				72E1D6D2CAF52D8C45015726 /* [CP] Check Pods Manifest.lock */,
+				E8C22858251A150900736B2B /* Headers */,
+				E8C22859251A150900736B2B /* Sources */,
+				E8C2285A251A150900736B2B /* Frameworks */,
+				E8C2285B251A150900736B2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapFontsKitV2;
+			productName = TapFontsKitV2;
+			productReference = E8C2285D251A150900736B2B /* TapFontsKitV2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8C22854251A150900736B2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E8C2285C251A150900736B2B = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = E8C22857251A150900736B2B /* Build configuration list for PBXProject "TapFontsKitV2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8C22853251A150900736B2B;
+			productRefGroup = E8C2285E251A150900736B2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8C2285C251A150900736B2B /* TapFontsKitV2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8C2285B251A150900736B2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8198A81251A157800DB83C3 /* Circe-Thin.ttf in Resources */,
+				E8198A7F251A157800DB83C3 /* HelveticaNeueLTW20-Bold.ttf in Resources */,
+				E8198A7E251A157800DB83C3 /* Circe-Bold.ttf in Resources */,
+				E8198A80251A157800DB83C3 /* HelveticaNeueLTW20-Light.ttf in Resources */,
+				E8198A82251A157800DB83C3 /* Circe-Regular.ttf in Resources */,
+				E8198A7A251A157800DB83C3 /* HelveticaNeueLTW20-Roman.ttf in Resources */,
+				E8198A7C251A157800DB83C3 /* Circe-Light.ttf in Resources */,
+				E8198A7B251A157800DB83C3 /* Circe-ExtraLight.ttf in Resources */,
+				E8198A7D251A157800DB83C3 /* Circe-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72E1D6D2CAF52D8C45015726 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapFontsKitV2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8C22859251A150900736B2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8198A84251A157800DB83C3 /* TapFont.swift in Sources */,
+				E8198A83251A157800DB83C3 /* FontProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E8C22863251A150900736B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8C22864251A150900736B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8C22866251A150900736B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E41DF361376887A1F1C4AB9 /* Pods-TapFontsKitV2.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G46S76PUH4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TapFontsKitV2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tap.TapFontsKitV2;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8C22867251A150900736B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39167F1415945BEA5C137FB3 /* Pods-TapFontsKitV2.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G46S76PUH4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TapFontsKitV2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tap.TapFontsKitV2;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8C22857251A150900736B2B /* Build configuration list for PBXProject "TapFontsKitV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8C22863251A150900736B2B /* Debug */,
+				E8C22864251A150900736B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8C22865251A150900736B2B /* Build configuration list for PBXNativeTarget "TapFontsKitV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8C22866251A150900736B2B /* Debug */,
+				E8C22867251A150900736B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8C22854251A150900736B2B /* Project object */;
+}
