@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TapFontsKitV2"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Kit with fonts used in Tap mobile apps & frameworks."
 
   # This description is used to generate tags and improve search results.
@@ -106,7 +106,7 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   spec.resources = "TapFontsKitV2/TapFontsKitV2/Resources/*.{ttf}"
-
+  spec.ios.resource_bundle 	= { 'Fonts' => 'TapFontsKitV2/TapFontsKitV2/Resources/*.ttf' }
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
