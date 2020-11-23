@@ -6,8 +6,6 @@ target 'TapFontsKitV2' do
   use_frameworks!
 
   # Pods for TapFontsKitV2
-  pod 'SwiftLint'
   pod 'TapAdditionsKitV2'
-  pod 'TapSwiftFixes/Threading'
 
 end

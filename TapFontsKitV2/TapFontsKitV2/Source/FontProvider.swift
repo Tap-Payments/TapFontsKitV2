@@ -8,7 +8,7 @@
 import CoreGraphics
 import func 	CoreText.CTFontManager.CTFontManagerRegisterGraphicsFont
 import class	TapAdditionsKitV2.Bundle
-import func 	TapSwiftFixes.synchronized
+import func 	TapSwiftFixesV2.synchronized
 import class	UIKit.UIFont.UIFont
 
 /*!
@@ -107,11 +107,7 @@ public class FontProvider {
             .helveticaNeueLight: 	.arabicHelveticaNeueLight,
             .helveticaNeueMedium: 	.arabicHelveticaNeueRegular,
             .helveticaNeueRegular:	.arabicHelveticaNeueRegular,
-            .helveticaNeueBold: 	.arabicHelveticaNeueBold,
-            .circeExtraLight: 		.arabicHelveticaNeueLight,
-            .circeLight: 			.arabicHelveticaNeueLight,
-            .circeRegular: 			.arabicHelveticaNeueRegular,
-            .circeBold: 			.arabicHelveticaNeueBold
+            .helveticaNeueBold: 	.arabicHelveticaNeueBold
         ]
     }()
     

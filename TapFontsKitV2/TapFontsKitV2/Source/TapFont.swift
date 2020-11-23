@@ -17,11 +17,6 @@ public enum TapFont {
     case helveticaNeueRegular
     case helveticaNeueBold
     
-    case circeExtraLight
-    case circeLight
-    case circeRegular
-    case circeBold
-    
     case arabicHelveticaNeueLight
     case arabicHelveticaNeueRegular
     case arabicHelveticaNeueBold
@@ -64,11 +59,6 @@ public enum TapFont {
         case .helveticaNeueMedium: 	return "HelveticaNeue-Medium"
         case .helveticaNeueRegular:	return "HelveticaNeue"
         case .helveticaNeueBold: 	return "HelveticaNeue-Bold"
-            
-        case .circeExtraLight:	return "Circe-ExtraLight"
-        case .circeLight: 		return "Circe-Light"
-        case .circeRegular: 	return "Circe-Regular"
-        case .circeBold: 		return "Circe-Bold"
             
         case .arabicHelveticaNeueLight: 	return "HelveticaNeueLTW20-Light"
         case .arabicHelveticaNeueRegular:	return "HelveticaNeueLTW20-Roman"

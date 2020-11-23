@@ -5,7 +5,7 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
-import struct	CoreGraphics.CGGeometry.CGSize
+/*import struct	CoreGraphics.CGGeometry.CGSize
 import class	UIKit.UIWebView.UIWebView
 
 /// Useful extension for UIWebView
@@ -28,3 +28,4 @@ public extension UIWebView {
         return self.sizeThatFits(.zero)
     }
 }
+*/
