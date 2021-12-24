@@ -1,5 +1,5 @@
 PODS:
-  - TapAdditionsKitV2 (0.0.7):
+  - TapAdditionsKitV2 (0.0.8):
     - TapSwiftFixesV2
   - TapSwiftFixesV2 (1.0.0):
     - TapSwiftFixesV2/CoreGraphics (= 1.0.0)
@@ -18,9 +18,9 @@ SPEC REPOS:
     - TapSwiftFixesV2
 
 SPEC CHECKSUMS:
-  TapAdditionsKitV2: 89a0ef85d6aa659ff3102b632914466924ce3ccb
+  TapAdditionsKitV2: ba369802e9575c3475ce6d5af228cf60c68edfc9
   TapSwiftFixesV2: a8623a7273c6790b9754ec7e272e96fce7d3a800
 
 PODFILE CHECKSUM: f1d5ca0241d2a13dc7ddd7dd666544be89225e19
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.11.2
