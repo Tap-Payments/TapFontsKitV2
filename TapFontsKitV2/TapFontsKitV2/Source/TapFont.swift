@@ -60,9 +60,9 @@ public enum TapFont {
         case .helveticaNeueRegular:	return "HelveticaNeue"
         case .helveticaNeueBold: 	return "HelveticaNeue-Bold"
             
-        case .arabicHelveticaNeueLight: 	return "HelveticaNeueLTW20-Light"
-        case .arabicHelveticaNeueRegular:	return "HelveticaNeueLTW20-Roman"
-        case .arabicHelveticaNeueBold: 		return "HelveticaNeueLTW20-Bold"
+        case .arabicHelveticaNeueLight: 	return "Tajawal-Regular"
+        case .arabicHelveticaNeueRegular:	return "Tajawal-Medium"
+        case .arabicHelveticaNeueBold: 		return "Tajawal-Bold"
 			
 		default:
 			

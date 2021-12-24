@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2A0AD275E57D37E55B25575C /* Pods_TapFontsKitV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C249196D015CADFD6CFD2603 /* Pods_TapFontsKitV2.framework */; };
-		E8198A7A251A157800DB83C3 /* HelveticaNeueLTW20-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8198A6E251A157800DB83C3 /* HelveticaNeueLTW20-Roman.ttf */; };
-		E8198A7F251A157800DB83C3 /* HelveticaNeueLTW20-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8198A73251A157800DB83C3 /* HelveticaNeueLTW20-Bold.ttf */; };
-		E8198A80251A157800DB83C3 /* HelveticaNeueLTW20-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8198A74251A157800DB83C3 /* HelveticaNeueLTW20-Light.ttf */; };
 		E8198A83251A157800DB83C3 /* FontProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8198A78251A157800DB83C3 /* FontProvider.swift */; };
 		E8198A84251A157800DB83C3 /* TapFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8198A79251A157800DB83C3 /* TapFont.swift */; };
+		E85DBF3B2775971A008D93A3 /* Tajawal-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E85DBF3127759659008D93A3 /* Tajawal-Bold.ttf */; };
+		E85DBF3C2775971A008D93A3 /* Tajawal-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E85DBF3027759652008D93A3 /* Tajawal-Medium.ttf */; };
+		E85DBF3D2775971A008D93A3 /* Tajawal-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E85DBF2F27759649008D93A3 /* Tajawal-Regular.ttf */; };
 		E8C22862251A150900736B2B /* TapFontsKitV2.h in Headers */ = {isa = PBXBuildFile; fileRef = E8C22860251A150900736B2B /* TapFontsKitV2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -20,11 +20,11 @@
 		39167F1415945BEA5C137FB3 /* Pods-TapFontsKitV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapFontsKitV2.release.xcconfig"; path = "Target Support Files/Pods-TapFontsKitV2/Pods-TapFontsKitV2.release.xcconfig"; sourceTree = "<group>"; };
 		8E41DF361376887A1F1C4AB9 /* Pods-TapFontsKitV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapFontsKitV2.debug.xcconfig"; path = "Target Support Files/Pods-TapFontsKitV2/Pods-TapFontsKitV2.debug.xcconfig"; sourceTree = "<group>"; };
 		C249196D015CADFD6CFD2603 /* Pods_TapFontsKitV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapFontsKitV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8198A6E251A157800DB83C3 /* HelveticaNeueLTW20-Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeueLTW20-Roman.ttf"; sourceTree = "<group>"; };
-		E8198A73251A157800DB83C3 /* HelveticaNeueLTW20-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeueLTW20-Bold.ttf"; sourceTree = "<group>"; };
-		E8198A74251A157800DB83C3 /* HelveticaNeueLTW20-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeueLTW20-Light.ttf"; sourceTree = "<group>"; };
 		E8198A78251A157800DB83C3 /* FontProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontProvider.swift; sourceTree = "<group>"; };
 		E8198A79251A157800DB83C3 /* TapFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapFont.swift; sourceTree = "<group>"; };
+		E85DBF2F27759649008D93A3 /* Tajawal-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tajawal-Regular.ttf"; sourceTree = "<group>"; };
+		E85DBF3027759652008D93A3 /* Tajawal-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tajawal-Medium.ttf"; sourceTree = "<group>"; };
+		E85DBF3127759659008D93A3 /* Tajawal-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tajawal-Bold.ttf"; sourceTree = "<group>"; };
 		E8C2285D251A150900736B2B /* TapFontsKitV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapFontsKitV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C22860251A150900736B2B /* TapFontsKitV2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapFontsKitV2.h; sourceTree = "<group>"; };
 		E8C22861251A150900736B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,9 +62,9 @@
 		E8198A6D251A157800DB83C3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E8198A6E251A157800DB83C3 /* HelveticaNeueLTW20-Roman.ttf */,
-				E8198A73251A157800DB83C3 /* HelveticaNeueLTW20-Bold.ttf */,
-				E8198A74251A157800DB83C3 /* HelveticaNeueLTW20-Light.ttf */,
+				E85DBF3127759659008D93A3 /* Tajawal-Bold.ttf */,
+				E85DBF3027759652008D93A3 /* Tajawal-Medium.ttf */,
+				E85DBF2F27759649008D93A3 /* Tajawal-Regular.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -176,9 +176,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8198A7F251A157800DB83C3 /* HelveticaNeueLTW20-Bold.ttf in Resources */,
-				E8198A80251A157800DB83C3 /* HelveticaNeueLTW20-Light.ttf in Resources */,
-				E8198A7A251A157800DB83C3 /* HelveticaNeueLTW20-Roman.ttf in Resources */,
+				E85DBF3D2775971A008D93A3 /* Tajawal-Regular.ttf in Resources */,
+				E85DBF3C2775971A008D93A3 /* Tajawal-Medium.ttf in Resources */,
+				E85DBF3B2775971A008D93A3 /* Tajawal-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
