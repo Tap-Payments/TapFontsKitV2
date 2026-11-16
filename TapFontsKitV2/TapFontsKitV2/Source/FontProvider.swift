@@ -7,7 +7,8 @@
 
 import CoreGraphics
 import func 	CoreText.CTFontManager.CTFontManagerRegisterGraphicsFont
-import class	TapAdditionsKitV2.Bundle
+import Foundation
+import TapAdditionsKitV2
 import func 	TapSwiftFixesV2.synchronized
 import class	UIKit.UIFont.UIFont
 
@@ -126,13 +127,18 @@ public class FontProvider {
     }()
     
     private static let resourcesBundle: Bundle = {
-       
+
+        #if SWIFT_PACKAGE
+        // Swift Package Manager puts the fonts in the package's own resource bundle.
+        return Bundle.module
+        #else
         guard let bundle = Bundle(for: FontProvider.self).tap_childBundle(named: Constants.resourcesBundleName) else {
             
             fatalError("There is no bundle named \(Constants.resourcesBundleName)")
         }
-        
+
         return bundle
+        #endif
     }()
     
     // MARK: Methods
